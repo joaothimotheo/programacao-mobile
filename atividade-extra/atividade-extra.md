@@ -1,0 +1,35 @@
+# Resumo valendo nota 05/05
+
+- Organizar códigos em pastas separadas para ter uma visualização/manutenção melhor
+- Tudo que for atividade coloca na Pasta ‘Activity’
+- Constantes globais cria e coloca na pasta ‘Constants’
+- onCreate() sempre chama um super na pasta pai
+    - No onCreate é um define para qual tela vai ir
+- A Classe ‘R’ é gerada em todo build do app
+- para nome de arquivo tudo minusculo separado com undescore
+- O Layout é gerado por um arquivo XML
+- Layout é organizado em forma de árvore
+- ViewGroup pode armazenar um ou mais Views
+    - ViewGroup são Layouts
+- View é feita por componentes
+    - ScrollView
+    - CardView
+- É recomendado criar uma tela com o ScrollView, pensando em celulares com telas menores
+- O atributo ‘orientation’ é para deixar o app na horizontal ou vertical
+- Componentes obrigatórios
+    - Layout_width (Altura)
+    - Layout_height (Largura)
+    - É utilizada a medição de DP e não PX para o app ser mais responsivo
+    - Sempre usar valores relativos
+        - Match_parent - Fica no tamanho do pai
+        - Wrap_content  - Fica do tamanho do filho
+- Padding e   Margin mexem no espaçamento do componente de dentro do component ou por fora do component
+- Para nomear cores e dimensões usar nomes genéricos
+- Todo celular android sabe sua categoria (Large - Small- Normal - XLarge)
+- Para alterar as margins da direita ou da esquerda usa Start - End
+- TextView é usado para textos estáticos
+- hoje em dia só é usado o TextInputLayout
+- Para usar componentes de terceiro tem que importar no Gradle e passar o caminho dele no XML
+- InputType é usado para alterar o estilo do teclado
+- Botão tem que ser um verbo no infinitivo e de preferencia para uma linha só
+- FrameLayout empilhar os filhos
