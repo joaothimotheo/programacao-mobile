@@ -1,0 +1,11 @@
+Estruturas condicionais: abordamos as estruturas "if else", "if else if" e "when". Essas estruturas permitem que o programa execute diferentes blocos de código com base em condições específicas. Apresentamos exemplos de como usar cada uma delas.
+
+Estruturas de repetição: "while", "do...while" e "for". Essas estruturas possibilitam repetir a execução de um bloco de código enquanto uma determinada condição for verdadeira. Apresentamos exemplos do uso dessas estruturas para ilustrar seu funcionamento.
+
+Conceito de funções: as funções são blocos de código reutilizáveis que realizam uma determinada tarefa. Explicamos os conceitos básicos de criação e chamada de funções, assim como a passagem de parâmetros. Fornecemos exemplos para ilustrar o uso das funções.
+
+Programação orientada a objetos (POO): permite a organização do código em objetos, que possuem características (atributos) e comportamentos (métodos). Abordamos as classes, que são as estruturas que definem os objetos, e como os objetos podem interagir por meio de relacionamentos, como associação, agregação, composição e herança.
+
+Os três pilares da POO: encapsulamento, herança e polimorfismo. O encapsulamento permite ocultar os detalhes internos de um objeto, expondo apenas uma interface pública. A herança nos permite criar novas classes com base em classes existentes, aproveitando características e comportamentos já definidos. O polimorfismo nos permite tratar objetos de classes diferentes de maneira uniforme, por meio da sobrescrita de métodos e da criação de interfaces comuns.
+
+Paradigmas de programação: são abordagens e estilos diferentes de programação. Exploramos o paradigma imperativo, que inclui os estilos estruturado, procedural e orientado a objetos, e o paradigma declarativo, que inclui os estilos funcional e lógico.
