@@ -1,0 +1,17 @@
+Volley: É uma biblioteca do Google que é usada para realizar chamadas de API. No entanto, é importante destacar que não deve ser chamada na thread principal, pois pode bloquear a interface do usuário.
+
+Atualização do SDK: É necessário realizar a atualização do SDK (Kit de Desenvolvimento de Software) anualmente para se manter atualizado com as novas funcionalidades e correções oferecidas pela plataforma.
+
+Classe anônima: Se a chamada à API for utilizada em poucas ocasiões, é possível criar uma classe anônima para lidar com o callback. Isso evita a necessidade de criar uma classe separada para cada chamada de API.
+
+Dinâmica das APIs: Cada API tem sua própria dinâmica e funciona de maneira diferente. Isso significa que cada API pode ter seus próprios métodos e parâmetros específicos, exigindo um mapeamento adequado para sua utilização.
+
+Componentes e classes: Todos os componentes necessários para a resposta da API devem estar presentes na classe correspondente. Isso significa que os dados retornados pela API devem ser mapeados corretamente para os campos e propriedades da classe.
+
+Callback: O callback é um mecanismo utilizado para receber uma chamada de retorno com a resposta da API. Esse callback é executado quando a resposta é recebida.
+
+Callback na API Service: O callback deve ser implementado na classe de serviço da API. Essa classe é responsável por realizar a chamada à API e receber a resposta.
+
+OnResponse: O método OnResponse é acionado quando a resposta da API é bem-sucedida. Nesse momento, é possível acessar e manipular os dados retornados pela API.
+
+OnFailed: O método OnFailed é acionado quando a resposta da API resulta em falha. Nesse caso, é possível tratar o erro e realizar ações apropriadas, como exibir mensagens de erro ao usuário.
