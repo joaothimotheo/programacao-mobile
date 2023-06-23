@@ -1,0 +1,27 @@
+Servidores HTTP: Apache, Tomcat, Nginx e IIS. Esses servidores têm a responsabilidade de receber as requisições dos dispositivos móveis e fornecer as respostas apropriadas.
+
+Banco de Dados Relacional: Para armazenar dados estruturados e relacionais em aplicativos móveis, existem opções como MySQL, SQL Server e Postgres.
+
+Banco de Dados NoSQL: Esses bancos de dados são flexíveis e escaláveis para lidar com dados não estruturados ou semi-estruturados.
+
+Comunicação com o servidor de aplicação: A comunicação entre o dispositivo móvel e o servidor de aplicação pode ocorrer localmente, no mesmo local físico do aplicativo, ou remotamente, em um servidor remoto.
+
+Arquitetura Orientada a Serviço: A arquitetura Orientada a Serviço é utilizada para a comunicação entre dispositivos móveis e servidores. Ela envolve a disponibilização de serviços específicos que podem ser consumidos pelos dispositivos móveis.
+
+SOAP (Simple Object Access Protocol): Esse protocolo utiliza XML sobre HTTP para a comunicação entre o dispositivo móvel e o servidor, permitindo a troca de informações estruturadas entre sistemas diferentes.
+
+XML (Extensible Markup Language): O XML é utilizado como uma representação de documento semi-estruturado desde 1996. Ele consiste em elementos e atributos que possibilitam a organização e descrição dos dados.
+
+REST (Representational State Transfer): O REST baseia-se no uso apropriado dos métodos HTTP (GET, POST, PUT, DELETE) para permitir a interação entre dispositivos móveis e servidores.
+
+Clientes leves: Esses clientes possuem apenas uma camada e não possuem código de aplicação personalizado. Eles dependem totalmente do servidor e são comumente utilizados em navegadores web.
+
+Clientes robustos: Esses clientes possuem três camadas: interface com usuário, lógica de negócio e acesso a dados. A comunicação entre esses clientes e o servidor é limitada. Um exemplo de cliente robusto é o WhatsApp.
+
+Aplicações nativas: Essas aplicações possuem alto desempenho e utilizam o ecossistema da plataforma específica. No entanto, exigem um esforço maior no desenvolvimento para garantir o desempenho adequado.
+
+Compilação nativa: Nesse caso, um ambiente de terceiros é utilizado para compilar a aplicação para diferentes plataformas. Exemplos de frameworks incluem React Native, Native Script e Xamarin. No entanto, dominar esses frameworks pode apresentar certa dificuldade.
+
+Aplicações híbridas: Essas aplicações são fáceis para desenvolvedores web, pois executam em uma webview. No entanto, podem ser mais lentas em comparação com as aplicações nativas. Exemplos de frameworks híbridos incluem PhoneGap, Cordova e Ionic.
+
+Progressive Web App: Essas aplicações são fáceis de desenvolver e não são aplicativos reais, mas executam no navegador. Elas oferecem uma experiência semelhante à de um aplicativo nativo, mas não requerem instalação.
